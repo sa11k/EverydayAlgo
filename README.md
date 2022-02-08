@@ -3,7 +3,7 @@
 ## 🧑🏽‍💻 Situation board
 
 | 날짜     | 문제 출처| 번호     | 문제      |
-| -------- | -------- | -------- | -------- |
+| :--------: | :--------: | :--------: | :-------- |
 |           | BaekJoon     | 1003     |[피보나치 함수](https://www.acmicpc.net/problem/1003) |
 |           | BaekJoon     | 2442     |[별 찍기](https://www.acmicpc.net/problem/2442) |
 |           | BaekJoon     | 2798     |[블랙잭](https://www.acmicpc.net/problem/2798) |
