@@ -33,3 +33,7 @@
 |2022-02-09 | SWExpert     | 1210     |[Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh&categoryId=AV14ABYKADACFAYh&categoryType=CODE&problemTitle=1210&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
 |2022-02-09 | SWExpert     | 1223     |[계산기2](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14nnAaAFACFAYD&categoryId=AV14nnAaAFACFAYD&categoryType=CODE&problemTitle=1223&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
 |2022-02-09 | BaekJoon     | 2304     |[창고 다각형](https://www.acmicpc.net/problem/2304) |
+|2022-02-10 | BaekJoon     | 1158     |[요세푸스 문제](https://www.acmicpc.net/problem/1158) |
+|2022-02-10 | BaekJoon     | 2563     |[색종이](https://www.acmicpc.net/problem/2563) |
+|2022-02-10 | SWExpert     | 1233     |[사치연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD&categoryId=AV141176AIwCFAYD&categoryType=CODE&problemTitle=1233&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
+|2022-02-10 | BaekJoon     | 2477     |[참외밭](https://www.acmicpc.net/problem/2477) |
