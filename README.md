@@ -37,3 +37,5 @@
 |2022-02-10 | BaekJoon     | 2563     |[색종이](https://www.acmicpc.net/problem/2563) |
 |2022-02-10 | SWExpert     | 1233     |[사치연산 유효성 검사](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV141176AIwCFAYD&categoryId=AV141176AIwCFAYD&categoryType=CODE&problemTitle=1233&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
 |2022-02-10 | BaekJoon     | 2477     |[참외밭](https://www.acmicpc.net/problem/2477) |
+|2022-02-11 | BaekJoon     | 2468     |[안전영역](https://www.acmicpc.net/problem/2468) |
+|2022-02-11 | BaekJoon     | 16926     |[배열돌리기1](https://www.acmicpc.net/problem/16926) |
