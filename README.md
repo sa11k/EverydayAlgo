@@ -42,3 +42,4 @@
 |2022-02-12 | BaekJoon     | 2116     |[주사위 쌓기](https://www.acmicpc.net/problem/2116) |
 |2022-02-14 | BaekJoon     | 2961     |[도영이가 만든 맛있는 음식](https://www.acmicpc.net/problem/2961) |
 |2022-02-14 | BaekJoon     | 3040     |[백설공주와 일곱난쟁이](https://www.acmicpc.net/problem/3040) |
+|2022-02-14 | SWExpert     | 6808     |[규영이와 인영이의 카드게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWgv9va6HnkDFAW0&categoryId=AWgv9va6HnkDFAW0&categoryType=CODE&problemTitle=6808&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
