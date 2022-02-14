@@ -39,3 +39,4 @@
 |2022-02-10 | BaekJoon     | 2477     |[참외밭](https://www.acmicpc.net/problem/2477) |
 |2022-02-11 | BaekJoon     | 2468     |[안전영역](https://www.acmicpc.net/problem/2468) |
 |2022-02-11 | BaekJoon     | 16926     |[배열돌리기1](https://www.acmicpc.net/problem/16926) |
+|2022-02-12 | BaekJoon     | 2116     |[주사위 쌓기](https://www.acmicpc.net/problem/2116) |
