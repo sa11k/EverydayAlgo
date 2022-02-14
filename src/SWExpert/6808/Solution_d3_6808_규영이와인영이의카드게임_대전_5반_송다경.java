@@ -5,6 +5,7 @@ public class Solution_d3_6808_규영이와인영이의카드게임_대전_5반_�
     static int resultWin, resultLose;
     static int[] K, I, result;
     static boolean[] check;
+
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
