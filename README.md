@@ -40,3 +40,5 @@
 |2022-02-11 | BaekJoon     | 2468     |[안전영역](https://www.acmicpc.net/problem/2468) |
 |2022-02-11 | BaekJoon     | 16926     |[배열돌리기1](https://www.acmicpc.net/problem/16926) |
 |2022-02-12 | BaekJoon     | 2116     |[주사위 쌓기](https://www.acmicpc.net/problem/2116) |
+|2022-02-14 | BaekJoon     | 2961     |[도영이가 만든 맛있는 음식](https://www.acmicpc.net/problem/2961) |
+|2022-02-14 | BaekJoon     | 3040     |[백설공주와 일곱난쟁이](https://www.acmicpc.net/problem/3040) |
