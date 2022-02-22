@@ -49,3 +49,4 @@
 |2022-02-16 | BaekJoon     | 2527     |[직사각형](https://www.acmicpc.net/problem/2527) |
 |2022-02-21 | BaekJoon     | 1759     |[암호만들기](https://www.acmicpc.net/problem/1759) |
 |2022-02-21 | BaekJoon     | 2564     |[경비원](https://www.acmicpc.net/problem/2564) |
+|2022-02-22 | BaekJoon     | 2578     |[빙고](https://www.acmicpc.net/problem/2578) |
