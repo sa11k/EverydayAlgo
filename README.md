@@ -47,3 +47,4 @@
 |2022-02-15 | JungOl     | 1828     |[냉장고](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1101&sca=30) |
 |2022-02-15 | BaekJoon     | 2559     |[수열](https://www.acmicpc.net/problem/2559) |
 |2022-02-16 | BaekJoon     | 2527     |[직사각형](https://www.acmicpc.net/problem/2527) |
+|2022-02-21 | BaekJoon     | 1759     |[암호만들기](https://www.acmicpc.net/problem/1759) |
