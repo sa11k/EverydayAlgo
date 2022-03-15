@@ -50,3 +50,7 @@
 | BaekJoon     | 1759     |[암호만들기](https://www.acmicpc.net/problem/1759) |
 | BaekJoon     | 2564     |[경비원](https://www.acmicpc.net/problem/2564) |
 | BaekJoon     | 2578     |[빙고](https://www.acmicpc.net/problem/2578) |
+| BaekJoon     | 13458     |[시험 감독](https://www.acmicpc.net/problem/13458) |
+| BaekJoon     | 14891     |[톱니바퀴](https://www.acmicpc.net/problem/14891) |
+| BaekJoon     | 17140     |[이차원 배열과 연산](https://www.acmicpc.net/problem/17140) |
+| BaekJoon     | 2628     |[종이자르기](https://www.acmicpc.net/problem/2628) |
