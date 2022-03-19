@@ -54,3 +54,4 @@
 | BaekJoon     | 14891     |[톱니바퀴](https://www.acmicpc.net/problem/14891) |
 | BaekJoon     | 17140     |[이차원 배열과 연산](https://www.acmicpc.net/problem/17140) |
 | BaekJoon     | 2628     |[종이자르기](https://www.acmicpc.net/problem/2628) |
+| BaekJoon     | 14502     |[연구소](https://www.acmicpc.net/problem/14502) |
