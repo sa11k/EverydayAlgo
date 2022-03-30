@@ -55,3 +55,7 @@
 | BaekJoon     | 17140     |[이차원 배열과 연산](https://www.acmicpc.net/problem/17140) |
 | BaekJoon     | 2628     |[종이자르기](https://www.acmicpc.net/problem/2628) |
 | BaekJoon     | 14502     |[연구소](https://www.acmicpc.net/problem/14502) |
+| BaekJoon     | 14890     |[경사로](https://www.acmicpc.net/problem/14890) |
+| BaekJoon     | 2583     |[영역 구하기](https://www.acmicpc.net/problem/2583) |
+| BaekJoon     | 20057     |[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) |
+| BaekJoon     | 2667     |[단지번호](https://www.acmicpc.net/problem/2667) |
