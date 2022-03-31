@@ -58,4 +58,4 @@
 | BaekJoon     | 14890     |[경사로](https://www.acmicpc.net/problem/14890) |
 | BaekJoon     | 2583     |[영역 구하기](https://www.acmicpc.net/problem/2583) |
 | BaekJoon     | 20057     |[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) |
-| BaekJoon     | 2667     |[단지번호](https://www.acmicpc.net/problem/2667) |
+| BaekJoon     | 2667     |[단지번호 붙이기](https://www.acmicpc.net/problem/2667) |
