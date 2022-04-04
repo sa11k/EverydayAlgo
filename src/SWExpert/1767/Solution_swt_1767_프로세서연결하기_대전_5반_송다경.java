@@ -2,100 +2,101 @@ import java.io.*;
 import java.util.*;
 
 public class Solution_swt_1767_프로세서연결하기_대전_5반_송다경 {
-    static int N, result;
-    static int[][] grid;
-    static Deque<int[]> queue;
+    static class Processor{
+        int row, col;
+        public Processor(int row, int col) {
+            this.row = row; this.col = col;
+        }
+    }
+    static int[] dx = {-1,0,1,0};
+    static int[] dy = {0,1,0,-1};
+    static int[][] map;
+    static int N,T;
+    static int maxCore, result;
+    static List<Processor> list;
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine());
+        T = Integer.parseInt(br.readLine());
 
-        for(int tc = 1; tc<=T; tc++){
-            queue = new ArrayDeque<>();
-            result = 0;
+        for (int tc = 1; tc <= T; tc++) {
             N = Integer.parseInt(br.readLine());
-            grid = new int[N][N];
+            map = new int[N][N];
+            list = new ArrayList<>();
 
-            for(int i = 0; i<N; i++){
-                StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-                for(int j = 0; j<N; j++){
-                    grid[i][j] = Integer.parseInt(st.nextToken());
+            for (int i = 0; i < N; i++) {
+                StringTokenizer st = new StringTokenizer(br.readLine());
+                for (int j = 0; j < N; j++) {
+                    map[i][j] = Integer.parseInt(st.nextToken());
                 }
             }
 
-            for(int i = 0; i<N; i++){
-                for(int j = 0; j<N; j++){
-                    if(grid[i][j] == 1)
-                        result += solve(i, j);
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    if(i == 0 || j == 0 || i == N-1 || j == N-1) continue;
+                    if(map[i][j] == 1) list.add(new Processor(i,j));
                 }
             }
 
-            while(!queue.isEmpty()){
-                int i = queue.peek()[0];
-                int j = queue.peek()[1];
-                int up = queue.peek()[2];
-                int down = queue.peek()[3];
-                int left = queue.peek()[4];
-                int right = queue.peek()[5];
+            maxCore = Integer.MIN_VALUE;
+            result = Integer.MAX_VALUE;
 
-                if(up+down+left+right > Integer.MAX_VALUE*3){
-
-                }
-            }
+            dfs(0,0,0);
 
             System.out.println("#" + tc + " " + result);
         }
     }
 
-    static int solve(int i, int j){
-        System.out.println(i + " " + j);
-        int cnt = 0;
-        if(i == 0 || i == N-1 || j == 0 || j == N-1)
-            return 0;
-
-        int up = Integer.MAX_VALUE, down = Integer.MAX_VALUE, left = Integer.MAX_VALUE, right = Integer.MAX_VALUE;
-
-        for(int y = 0; y<i; y++){
-            if(grid[y][j] == 1){
-                up = Integer.MAX_VALUE;
-                break;
+    static void dfs(int idx, int coreCnt, int len) {
+        if(idx == list.size()) {
+            if(maxCore < coreCnt) {
+                maxCore = coreCnt;
+                result = len;
+            }else if(maxCore == coreCnt) {
+                if(result > len) result = len;
             }
-            up = i;
+            return;
         }
 
-        for(int y = i+1; y<N; y++){
-            if(grid[y][j] == 1){
-                down = Integer.MAX_VALUE;
-                break;
+        int row = list.get(idx).row;
+        int col = list.get(idx).col;
+        for (int d = 0; d < 4; d++) {
+            int count = 0;
+            int nx = row;
+            int ny = col;
+            int Srow = row;
+            int Scol = col;
+
+            while(true) {
+                nx += dx[d]; ny += dy[d];
+                if(nx < 0 || nx >= N || ny < 0 || ny >= N)
+                    break;
+                if(map[nx][ny] == 1) {
+                    count = 0;
+                    break;
+                }
+                count++;
             }
-            down = N-i-1;
-        }
 
-        for(int x = 0; x<j; x++){
-            if(grid[i][x] == 1){
-                left = Integer.MAX_VALUE;
-                break;
+            for (int i = 0; i < count; i++) {
+                Srow += dx[d];
+                Scol += dy[d];
+                map[Srow][Scol] = 1;
             }
-            left = j;
-        }
 
-        for(int x = j+1; x<N; x++){
-            if(grid[i][x] == 1){
-                right = Integer.MAX_VALUE;
-                break;
+            if(count == 0)
+                dfs(idx+1, coreCnt, len);
+
+            else {
+                dfs(idx+1, coreCnt+1, len + count);
+                Srow = row; Scol = col;
+                for (int i = 0; i < count; i++) {
+                    Srow += dx[d];
+                    Scol += dy[d];
+                    map[Srow][Scol] = 0;
+                }
             }
-            right = N-j-1;
         }
-
-        System.out.println("up : " + up);
-        System.out.println("down : " + down);
-        System.out.println("left : " + left);
-        System.out.println("right : " + right);
-
-        queue.offer(new int[]{i, j, up, down, left, right});
-
-        System.out.println("cnt : " + cnt);
-
-        return cnt;
     }
 }
 
