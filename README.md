@@ -60,3 +60,4 @@
 | BaekJoon     | 20057     |[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) |
 | BaekJoon     | 2667     |[단지번호 붙이기](https://www.acmicpc.net/problem/2667) |
 | BaekJoon     | 18429     |[근손실](https://www.acmicpc.net/problem/18429) |
+| SWExpert     | 1767     |[프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf&categoryId=AV4suNtaXFEDFAUf&categoryType=CODE&&&) |
