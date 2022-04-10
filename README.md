@@ -61,3 +61,4 @@
 | BaekJoon     | 2667     |[단지번호 붙이기](https://www.acmicpc.net/problem/2667) |
 | BaekJoon     | 18429     |[근손실](https://www.acmicpc.net/problem/18429) |
 | SWExpert     | 1767     |[프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf&categoryId=AV4suNtaXFEDFAUf&categoryType=CODE&&&) |
+| SWExpert     | 7793     |[오! 나의 여신님](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWsBQpPqMNMDFARG&categoryId=AWsBQpPqMNMDFARG&categoryType=CODE&problemTitle=7793&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
