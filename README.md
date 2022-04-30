@@ -64,3 +64,6 @@
 | SWExpert     | 7793     |[오! 나의 여신님](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWsBQpPqMNMDFARG&categoryId=AWsBQpPqMNMDFARG&categoryType=CODE&problemTitle=7793&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1) |
 | SWExpert     | 4014     |[활주로건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH&categoryId=AWIeW7FakkUDFAVH&categoryType=CODE&problemTitle=4014&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1&&&&&&&&&) |
 | BaekJoon     | 1916     |[최소비용 구하기](https://www.acmicpc.net/problem/1916) |
+| BaekJoon     | 1520     |[내리막 길](https://www.acmicpc.net/problem/1520) |
+| BaekJoon     | 16236     |[아기 상어](https://www.acmicpc.net/problem/16236) |
+| BaekJoon     | 1755     |[숫자놀이](https://www.acmicpc.net/problem/1755) |
