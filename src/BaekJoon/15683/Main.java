@@ -85,7 +85,6 @@ public class Main {
                 if(room[i][right] < 0) room[i][right] += 1;
             }
         }
-//        System.out.println(count);
         return count;
     }
 
@@ -138,10 +137,8 @@ public class Main {
         if(cnt == cctvList.size()) {
             int sum = 0;
             for(int i = 0; i<cctvList.size(); i++) {
-//                System.out.println(cctvList.get(i).cctvNum + "(" + i + ")" + " : " + cctvDirCnt[i]);
                 sum += cctvDirCnt[i];
             }
-//            System.out.println();
             maxCCTV = Math.max(maxCCTV, sum);
             return;
         }
@@ -153,15 +150,13 @@ public class Main {
                     else if(i == 1) cctvDirCnt[cnt] = checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
                     else if(i == 2) cctvDirCnt[cnt] = checkDown(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
                     else if(i == 3) cctvDirCnt[cnt] = checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
-//                    showCCTV();
-//                    System.out.println();
+
                     cctvDirection(cnt+1);
+
                     if(i == 0) checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     else if(i == 1) checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     else if(i == 2) checkDown(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     else if(i == 3) checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
-//                    showCCTV();
-//                    System.out.println();
                 }
                 break;
 
@@ -175,9 +170,9 @@ public class Main {
                         cctvDirCnt[cnt] = checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, true)
                                         + checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
                     }
-//                    showCCTV();
-//                    System.out.println();
+
                     cctvDirection(cnt+1);
+
                     if(i == 0) {
                         checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkDown(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
@@ -186,8 +181,6 @@ public class Main {
                         checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     }
-//                    showCCTV();
-//                    System.out.println();
                 }
                 break;
 
@@ -209,9 +202,9 @@ public class Main {
                         cctvDirCnt[cnt] = checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, true)
                                         + checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
                     }
-//                    showCCTV();
-//                    System.out.println();
+
                     cctvDirection(cnt+1);
+
                     if(i == 0) {
                         checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
@@ -228,8 +221,6 @@ public class Main {
                         checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     }
-//                    showCCTV();
-//                    System.out.println();
                 }
                 break;
 
@@ -255,9 +246,9 @@ public class Main {
                                         + checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, true)
                                         + checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
                     }
-//                    showCCTV();
-//                    System.out.println();
+
                     cctvDirection(cnt+1);
+
                     if(i == 0) {
                         checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
@@ -278,8 +269,6 @@ public class Main {
                         checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                         checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                     }
-//                    showCCTV();
-//                    System.out.println();
                 }
                 break;
 
@@ -289,23 +278,14 @@ public class Main {
                                 + checkDown(cctvList.get(cnt).i, cctvList.get(cnt).j, true)
                                 + checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, true);
 
-//                showCCTV();
-//                System.out.println();
-
                 cctvDirection(cnt+1);
+
                 checkTop(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                 checkRight(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                 checkDown(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
                 checkLeft(cctvList.get(cnt).i, cctvList.get(cnt).j, false);
-
-//                showCCTV();
-//                System.out.println();
                 break;
         }
-
-    }
-
-    static void checkCCTV(int[] dir) {
 
     }
 }
